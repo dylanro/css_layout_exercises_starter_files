@@ -1,0 +1,45 @@
+.container {
+	width: 800px;
+	height: 500px;
+	font-size:0;
+}
+
+.green {
+	background-color: green;
+	width: 50%;
+	height: 200px;
+	display:inline-block;
+	border:solid 1px black;
+}
+
+.blue {
+	background-color: blue;
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+	border:solid 1px black;
+}
+
+.grey {
+	background-color: grey;
+	width: 33.33%;
+	height:300px;
+	display: inline-block;
+	border:solid 1px black;
+}
+
+.black {
+	background-color: black;
+	width:33.33%;
+	height:300px;
+	display: inline-block;
+	border:solid 1px black;
+}
+
+.yellow {
+	background-color: yellow;
+	width: 33.33%;
+	height:300px;
+	display: inline-block;
+	border:solid 1px black;
+}
