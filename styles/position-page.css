@@ -1,1 +1,70 @@
+nav {
+	background-color: #000;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
 
+img {
+	border-radius: 100%;
+	margin-left: 60px;
+	margin-right: 20px;
+	height:50px;
+	width:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	vertical-align: middle;
+}
+
+ul {
+	list-style: none;
+	display:inline-block;
+}
+
+ul li {
+	display:inline-block;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.greenbox {
+	position: relative;
+	top:350px;
+	width:600px;
+	height:300px;
+	border: dashed 4px green;
+}
+
+body {
+	background-image: url("C:/Users/Dylan Roberts/Desktop/projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.top-left {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:-90px;
+	left:-90px;
+	border-radius: 0;
+	width: 200px;
+	height: 200px;
+}
+
+.bottom-right {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: -90px;
+	right: -90px;
+	border-radius: 0;
+	width: 200px;
+	height: 200px;
+}
